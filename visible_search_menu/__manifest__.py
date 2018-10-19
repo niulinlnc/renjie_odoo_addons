@@ -1,18 +1,16 @@
 # -*- coding: utf-8 -*-
 {
     'license': 'LGPL-3',
-    'name': "Product Multi Alias",
-    'summary': '为您的产品添加多个别名',
-    'description': "Add more than one alias for your product",
+    'name': "Visible Search Menu",
+    'summary': 'Default visible advanced search menu',
     'author': "renjie <i@renjie.me>",
     'website': "https://renjie.me",
     'support': 'i@renjie.me',
-    'category': 'Sales',
-    'version': '0.2',
-    'depends': ['product', 'sales_team'],
+    'category': 'Extra Tools',
+    'version': '0.1',
+    'depends': ['web'],
     'data': [
-        'security/ir.model.access.csv',
-        'views/product_view.xml',
+        'views/webclient_templates.xml',
     ],
     'images': [
         'static/description/main_screenshot.png'
